@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Bai7-NV2 - Trang 66</title>
+    </head>
+    <body>
+        <h1>Đóng góp ý kiến cho thư viện của nhà trường</h1>
+
+        <form action="./Bai7-NV3.html">
+            <h3>1. Thông tin về người góp ý kiến</h3>
+
+            <label for="fullname">Họ và tên</label>
+            <input name="fullname" id="fullname" required />
+            <br />
+
+            <label for="email">Địa chỉ email</label>
+            <input type="email" name="email" id="email" required />
+            <br />
+
+            <h3>2. Đóng góp ý kiến</h3>
+            <label for="message">Đóng góp ý kiến</label>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            <br />
+
+            <p>Thể loại cần bổ sung thêm sách</p>
+
+            <input type="checkbox" id="truyen-ngan" name="category" value="truyen-ngan" />
+            <label for="truyen-ngan">Truyện ngắn</label>
+            <br />
+
+            <input type="checkbox" id="ki-nang-song" name="category" value="ki-nang-song" />
+            <label for="ki-nang-song">Kĩ năng sống</label>
+            <br />
+
+            <input type="checkbox" id="cntt" name="category" value="cntt" />
+            <label for="cntt">Công nghệ thông tin</label>
+            <br />
+
+            <input type="checkbox" id="truyen-tranh" name="category" value="truyen-tranh" />
+            <label for="truyen-tranh">Truyện tranh</label>
+            <br />
+
+            <input type="checkbox" id="lich-su" name="category" value="lich-su" />
+            <label for="lich-su">Lịch sử</label>
+            <br />
+
+            <input type="submit" value="Góp ý" />
+        </form>
+    </body>
+</html>
