@@ -1,0 +1,22 @@
+.blue {
+    color: steelblue;
+}
+
+.red {
+    color: darkred;
+}
+
+.orangered {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: orangered;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+input.blue {
+    background-color: blue;
+    color: white;
+}
