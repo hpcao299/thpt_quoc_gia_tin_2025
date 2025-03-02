@@ -15,5 +15,14 @@ for i in marks:
     
 print()
 print('Diem trung binh:', sum(marks) / len(marks))
+print('Diem dau tien:', marks[0])
+print('Diem cuoi cung:', marks[len(marks) - 1])
 print('Diem thap nhat:', Min)
 print('Diem cao nhat:', Max)
+print()
+
+index = int(input('Tra cuu dau diem thu: '))
+while index < 1 or index - 1 > len(marks) - 1:
+    print('Dau diem ko hop le, hay nhap lai')
+    index = int(input('Tra cuu dau diem thu: '))
+print('Dau diem thu ' + str(index) + ': ' + str(marks[index - 1]))
