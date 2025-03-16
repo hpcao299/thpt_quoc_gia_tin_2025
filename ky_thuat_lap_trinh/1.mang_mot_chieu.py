@@ -52,3 +52,26 @@ A.clear()
 
 print(A)
 print()
+
+# Slice
+a = [1,3,5,7,9,11]
+b = a[2:1]
+
+# Bộ nhớ
+c = [1, 3, 2, 5]
+d = c
+print(d, c)
+c.append(4)
+print(d,c)
+d.sort()
+print(d,c)
+c = [1, 3]
+print(d,c)
+d.clear()
+print(d,c)
+c = d
+c.append(1)
+print(d,c)
+d = c[:]
+d.append(1)
+print(d,c)
