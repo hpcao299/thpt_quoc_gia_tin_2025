@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Biểu mẫu</title>
+    </head>
+    <style>
+        button[type='submit']:hover {
+            color: red;
+        }
+
+        button[type='submit']:active {
+            color: blue;
+        }
+
+        button[type='submit']:focus {
+            color: yellow;
+        }
+    </style>
+    <body>
+        <form action="">
+            <p>
+                <label>
+                    Full name
+                    <input type="text" name="full_name" />
+                </label>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+            </p>
+
+            <div><button type="submit">Submit</button><button type="Reset">Reset</button></div>
+        </form>
+
+        <div style="margin-top: 20px">
+            <ol type="a" start="4">
+                <li>Dieu 1</li>
+                <li>Dieu 2</li>
+            </ol>
+            <ul style="list-style-type: square">
+                <li>Dieu 3</li>
+                <li>Dieu 4</li>
+            </ul>
+        </div>
+
+        <p style="color: red">
+            <strong>This is a <i>paragraph.</i></strong>
+        </p>
+    </body>
+</html>
