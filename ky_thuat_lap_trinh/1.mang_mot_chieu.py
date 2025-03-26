@@ -75,3 +75,16 @@ print(d,c)
 d = c[:]
 d.append(1)
 print(d,c)
+
+print()
+# Sorted
+array_unsort = [6, 2.3, 4, 9, 10, 2, 3]
+abc = sorted(array_unsort)
+
+print(abc)
+print(array_unsort)
+abc[0] = 1
+print(abc)
+print(array_unsort)
+print(array_unsort.sort())
+print(array_unsort)
